@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outter-box{
+    width: 100%;
+    height: 100%;
+    background-color: #024959;
+}
+.inner{
+    width: 100%;
+    /* height: 30vh; */
+    height: 100%;
+    display: flex;
+    /* margin: 30px; */
+    overflow: hidden;
+}
+.nav{
+    position: absolute;
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+    top: 5%;
+    left: 10%;
+}
+.nav>img{
+    /* width: 100px; */
+    height: 60px;
+}
+.nav>h1{
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+.ads{
+    font-size: 2rem;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.2rem;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+#first{
+    width: 25%;
+    height: 100%;
+    /* background-color: #026773; */
+}
+#second{
+    width: 65%;
+    /* height: 100%; */
+    /* background-color: #3CA6A6; */
+    background-image:linear-gradient(#3ca6a663, #3ca6a663), url(https://plus.unsplash.com/premium_photo-1664301889484-ccb182ded33e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+    background-size: cover;
+    background-position: center;
+}
+#dard-ness{
+    width: 65%;
+    height: 100vh;
+}
+#third{
+    width: 10%;
+    height: 100vh;
+    /* background-color: #F2E3D5; */
+}
+.small-pic{
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    /* border: 2px solid red; */
+    background: linear-gradient(hsla(180, 47%, 44%, 0.388),#3ca6a663), url(https://plus.unsplash.com/premium_photo-1664301889484-ccb182ded33e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    top: 40%;
+    left: 77%;
+    border-radius: 15px;
+    box-shadow: 2px 4px 10px  #3ca6a663;
+}
+.text-side{
+    position: absolute;
+    transform: rotate(90deg); 
+    right: -47%;
+    transform-origin: 0% 0% ;
+}
+.text-side>h1{
+    font-size: 80px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: monument, 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.9rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    color: transparent;
+    text-shadow: 21px 2px 21px red;
+}
